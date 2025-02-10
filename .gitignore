@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+cad/
+.env
+.venv
+env/
+venv/
+ENV/
+*.dxf
+.DS_Store

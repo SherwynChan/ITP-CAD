@@ -12,3 +12,6 @@ pip install -r requirements.txt
 
 # Run
 streamlit run main.py
+```
+## Streamlit
+Link: https://aai2002.streamlit.app/

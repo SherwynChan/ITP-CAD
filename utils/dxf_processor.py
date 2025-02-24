@@ -51,7 +51,7 @@ def process_dxf(file_data, size=10):
                     x_coords.extend([x1, x2])
                     y_coords.extend([y1, y2])
         
-        # Calculate bounds and process image
+        # Process image
         return _process_lines_to_image(lines, x_coords, y_coords, size)
         
     except Exception as e:

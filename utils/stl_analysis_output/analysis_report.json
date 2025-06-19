@@ -1,0 +1,32 @@
+{
+  "file_info": {
+    "file_path": "C:\\Users\\junhongs\\Desktop\\itp\\ITP-CAD\\utils\\test.stl",
+    "processing_steps": [
+      "loaded",
+      "cleaned",
+      "simplified"
+    ]
+  },
+  "mesh_analysis": {
+    "is_watertight": true,
+    "is_winding_consistent": true,
+    "has_duplicated_faces": false,
+    "volume": 8000.0,
+    "bounds": "[[-55.  40.   0.]\n [-35.  60.  20.]]",
+    "centroid": "[-45.  50.  10.]",
+    "is_convex": true
+  },
+  "manufacturability": {
+    "is_manufacturable": true,
+    "difficulty_score": 0.0,
+    "issues": [],
+    "recommended_processes": [
+      "3-axis CNC",
+      "Milling"
+    ],
+    "minimum_tool_diameter": 2.0,
+    "deep_pockets_count": 0,
+    "undercuts_count": 0,
+    "steep_walls_count": 0
+  }
+}

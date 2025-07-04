@@ -421,7 +421,7 @@ def analyze_cnc_suitability(stl_path, save_image=None):
 # Example usage
 if __name__ == "__main__":
     # Replace with your STL file path
-    stl_file = "test.stl"
+    stl_file = r"C:\Users\junhongs\Desktop\itp\ITP-CAD\test_file\undercut_bottle.stl"
 
     if os.path.exists(stl_file):
         result = analyze_cnc_suitability(stl_file, save_image="cnc_analysis.png")

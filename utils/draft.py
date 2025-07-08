@@ -418,7 +418,6 @@ def analyze_cnc_suitability(stl_path, save_image=None):
     return analyzer
 
 
-# Example usage
 if __name__ == "__main__":
     # Replace with your STL file path
     stl_file = r"C:\Users\junhongs\Desktop\itp\ITP-CAD\test_file\undercut_bottle.stl"
@@ -428,9 +427,9 @@ if __name__ == "__main__":
 
         # Quick decision making
         if result and result.manufacturability_score >= 60:
-            print(f"\n✓ ACCEPT: This part is suitable for CNC (Score: {result.manufacturability_score})")
+            print(f"\n ACCEPT: This part is suitable for CNC (Score: {result.manufacturability_score})")
         else:
-            print(f"\n✗ REJECT: This part is not suitable for CNC (Score: {result.manufacturability_score})")
+            print(f"\n REJECT: This part is not suitable for CNC (Score: {result.manufacturability_score})")
     else:
         print(f"STL file not found: {stl_file}")
         print("Please update the 'stl_file' variable with the correct path")
